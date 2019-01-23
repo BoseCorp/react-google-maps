@@ -423,6 +423,15 @@ export class Marker extends React.PureComponent {
 
   /**
    *
+   * @type LatLng
+   * @public
+   */
+  setPosition(obj) {
+    return this.state[MARKER].setPosition(obj)
+  }
+
+  /**
+   *
    * @type MarkerShape
    * @public
    */
