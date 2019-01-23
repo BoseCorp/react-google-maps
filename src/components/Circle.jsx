@@ -252,7 +252,7 @@ export class Circle extends React.PureComponent {
    * @type number
    * @public
    */
-  setCenter(num) {
+  setCenter(obj) {
     return this.state[CIRCLE].setCenter(obj)
   }
 
