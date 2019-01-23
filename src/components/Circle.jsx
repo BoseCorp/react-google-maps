@@ -239,6 +239,15 @@ export class Circle extends React.PureComponent {
   }
 
   /**
+   * Sets the radius of this circle (in meters).
+   * @type number
+   * @public
+   */
+  setRadius(num) {
+    return this.state[CIRCLE].setRadius(num)
+  }
+
+  /**
    * Returns whether this circle is visible on the map.
    * @type boolean
    * @public
